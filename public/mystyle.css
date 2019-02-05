@@ -35,10 +35,6 @@ h1 {
 /*
 */
 
-#navbar-grad {
-    background: linear-gradient(#9198e5, #000000)
-}
-
 .container-fluid {
     width: 100%;
     padding-right: 15px;
