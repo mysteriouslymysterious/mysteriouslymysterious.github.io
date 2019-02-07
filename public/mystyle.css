@@ -61,20 +61,21 @@ h1 {
     padding: 10px 16px;
   }
   
+  /*!important used to overide default bootstrap*/
+  .btn-primary {
+      background-color: #ffffff  !important;
+      border-color: #00BFFF  !important;
+      border-width: .25em !important;
+      color: #000000 !important;
+      transition: color 0.1s ease 0s, background-color 0.15s ease 0s;
+      
+}
+    
   .btn-primary:hover {
-    background-color: rgb(50, 64, 255) !important;;
-    color: #ffffff  !important;
+    background-color: #00BFFF !important;
+    color: #ffffff !important;
 }
 
-/*!important used to overide default bootstrap*/
-.btn-primary {
-    background-color: #1fa5ff  !important;
-    border-color: #000000  !important;
-    color: #ff1f1f;
-    transition: color 0.1s ease 0s, background-color 0.15s ease 0s;
-    
-  }
-  
 .container-fluid {
     width: 100%;
     padding-right: 15px;
