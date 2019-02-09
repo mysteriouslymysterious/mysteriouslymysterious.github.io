@@ -1,13 +1,10 @@
-/*body {
-    background-color: lightblue;
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
-
-h1 {
-    color: cyan;
-    margin-left: 20px;
-}
-*/
-
 /*Animation for box images*/ 
 .movable {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
@@ -76,10 +73,14 @@ h1 {
     color: #ffffff !important;
 }
 
-.container-fluid {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+#stoBorads {
+    background-color: aqua;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    position: relative;
+    margin-left: 1px;
+    margin-bottom: 55px;
+    /* margin: 0 10px 10px 20px; */
+    padding: 15px;
+    padding-bottom: 3rem;
 }
