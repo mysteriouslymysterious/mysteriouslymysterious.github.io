@@ -73,8 +73,26 @@
     color: #ffffff !important;
 }
 
+/* Gradient Borders */
+.top-to-bottom {
+    border-width: 3px;
+    border-style: solid;
+    -webkit-border-image: 
+      -webkit-gradient(linear, 0 0, 0 100%, from(black), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image: 
+      -webkit-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image:
+      -moz-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;    
+    -o-border-image:
+      -o-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
+    border-image:
+      linear-gradient(to bottom, black, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+
+/* Project Boards on project page */
 #stoBorads {
-    background-color: aqua;
+    background-color: white;
     box-sizing: border-box;
     flex: 0 0 auto;
     position: relative;
@@ -82,5 +100,5 @@
     margin-bottom: 55px;
     /* margin: 0 10px 10px 20px; */
     padding: 15px;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
