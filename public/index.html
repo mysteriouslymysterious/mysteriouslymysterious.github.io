@@ -99,9 +99,17 @@
 
             <!--Main Container-->
             <div class="container mw-100">
+                <!-- Intro Row -->
                 <div
                     class="row shadow bg-secondary border border-bottom-0 border-top-5 border-right-0 border-left-0 text-white py-4 pl-4">
-                    <div class="col-sm-8 ">Apart from my web projects I also have in interest in music production.</div>
+                    <div class="col-sm-8 ">Apart from my web projects I also have in interest in music production.
+                        <!-- Possible dark mode -->
+                        <!-- <p>
+                            <a style="cursor: pointer"
+                                onclick="localStorage.setItem('mode', (localStorage.getItem('mode') || 'dark') === 'dark' ? 'bright' : 'dark'); localStorage.getItem('mode') === 'dark' ? document.querySelector('body').classList.add('dark') : document.querySelector('body').classList.remove('dark')"
+                                title="Switch to light or dark theme">🌓 Light|dark mode</a>
+                        </p> -->
+                    </div>
                     <div class="col-sm-4 border border-top-0 border-right-0 border-bottom-0 text-center"><img
                             class="justify-content-md-center shadow d-block w-100" src="imgs/locked.jpg"> There have
                         been
@@ -188,10 +196,7 @@
             </div>
 
 
-            <div class="footer navbar-fixed-bottom w-100 bg-dark text-white text-center py-1 text-monospace">
-                Mysteryiously
-                Mysterious
-                All Right Reserved</div>
+            <div class="footer navbar-fixed-bottom w-100 bg-dark text-white text-center py-1 text-monospace">Mysteryiously Mysterious</div>
         </div>
     </div>
 </body>
