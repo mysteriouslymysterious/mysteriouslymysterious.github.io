@@ -123,3 +123,18 @@ body.dark {
     padding: 15px;
     padding-bottom: 1em;
 }
+
+/* For project image borders */
+.border-img-circle {
+  border: 8px groove lightseagreen;
+  background-color: black;
+}
+
+/* Horizontal Blue gradient for Navbar */
+.blue-horizontal-grad {
+  background: #b7deed; /* Old browsers */
+  background: -moz-linear-gradient(left, #b7deed 0%, #71ceef 18%, #21b4e2 68%, #21b4e2 88%, #b7deed 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #b7deed 0%,#71ceef 18%,#21b4e2 68%,#21b4e2 88%,#b7deed 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #b7deed 0%,#71ceef 18%,#21b4e2 68%,#21b4e2 88%,#b7deed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed',GradientType=1 ); /* IE6-9 */
+}
